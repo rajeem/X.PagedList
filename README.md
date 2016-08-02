@@ -43,8 +43,8 @@ public class ProductController : Controller
 @{
 	ViewBag.Title = "Product Listing"
 }
-@using PagedList.Mvc; //import this so we get our HTML Helper
-@using PagedList; //import this so we can cast our list to IPagedList (only necessary because ViewBag is dynamic)
+@using X.PagedList.Mvc; //import this so we get our HTML Helper
+@using X.PagedList; //import this so we can cast our list to IPagedList (only necessary because ViewBag is dynamic)
 
 <!-- import the included stylesheet for some (very basic) default styling -->
 <link href="/Content/PagedList.css" rel="stylesheet" type="text/css" />
